@@ -18,6 +18,7 @@ void MainWindow::pollMouse()
     MainWindow::close();
     while(true)
     {
+        MainWindow::close();
         QPoint mouseLoc =QCursor::pos();
         qDebug()<<mouseLoc.x()<<" "<<mouseLoc.y();
         timerForPollMouse.start();
