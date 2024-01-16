@@ -5,6 +5,7 @@
 #include <QMouseEvent>
 #include <QTimer>
 #include <QEventLoop>
+#include <QSystemTrayIcon>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

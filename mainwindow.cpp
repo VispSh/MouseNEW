@@ -15,6 +15,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::pollMouse()
 {
+    MainWindow::close();
     while(true)
     {
         QPoint mouseLoc =QCursor::pos();
